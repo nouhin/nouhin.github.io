@@ -2077,12 +2077,18 @@ input, select, textarea {
 		text-align: center;
 	}
 
-		#header h1 {
+		/* #header h1 {
 			color: #252122;
 			font-weight: 900;
 			font-size: 2.5em;
 			letter-spacing: -0.035em;
 			line-height: 1;
+		} */
+
+		#header img{
+			position: relative;
+			width: 100px;
+			height: 100px;
 		}
 
 /* Nav */
