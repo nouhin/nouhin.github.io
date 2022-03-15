@@ -1561,6 +1561,11 @@ input, select, textarea {
 				margin: 0;
 				padding: 0 1em 0 1em;
 			}
+			header.major img {
+				float: left;   
+				width: 20px;
+				height: 20px;
+			   }
 
 	footer {
 		margin: 2.25em 0 0 0;
