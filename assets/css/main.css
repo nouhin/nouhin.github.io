@@ -1,11 +1,6 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,900,300italic");
 
-/*
-	Dopetrope by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -2067,15 +2062,117 @@ input, select, textarea {
 		margin-bottom: 0;
 	}
 
-/* Header */
+		#upper header {
+   
+			background-color: #f2f2f2;
+			height: 110px;
+			padding: 10px 0;
+			
+		}
+		
+		#upper nav {
+			width: 1400px;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-between;
+		}
+		
+		
+		#upper  img {
+			position: relative;
+			height: 90px;
+			width: 90px;
+			
+		}
+		.lang-menu {
+			width: 100px;
+			text-align: right;
+			font-weight: bold;
+			margin-top: 25px;
+			position: relative;
+		}
+		.lang-menu .selected-lang {
+			display: flex;   
+			justify-content: space-between;
+			line-height: 1;
+			cursor: pointer;
+		}
+		.lang-menu .selected-lang:before {
+			content: '';
+			display: inline-block;
+			width: 32px;
+			height: 32px;
+			background-image: url(https://countryflagsapi.com/png/usa);
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+		
+		.lang-menu ul {
+			margin: 0;
+			padding: 0;
+			display: none;
+			background-color: #fff;
+			border: 1px solid #f8f8f8;
+			position: absolute;
+			top: 45px;
+			right: 0px;
+			width: 125px;
+			border-radius: 5px;
+			box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+		}
+		
+		
+		.lang-menu ul li {
+			list-style: none;
+			text-align: left;
+			display: flex;
+			justify-content: space-between;
+		}
+		
+		.lang-menu ul li a {
+			text-decoration: none;
+			width: 125px;
+			padding: 5px 10px;
+			display: block;
+		}
+		
+		.lang-menu ul li:hover {
+			background-color: #f2f2f2;
+		}
+		
+		.lang-menu ul li a:before {
+			content: '';
+			display: inline-block;
+			width: 25px;
+			height: 25px;
+			vertical-align: middle;
+			margin-right: 10px;
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+		
+		.de:before {
+			background-image: url(https://countryflagsapi.com/png/de);
+		}
+		
+		.en:before {
+			background-image: url(https://countryflagsapi.com/png/usa);
+		}
+		.fr:before {
+			background-image: url(https://countryflagsapi.com/png/fr);
+		}
+		
+		.ar:before {
+			background-image: url(https://countryflagsapi.com/png/ar);
+		}
+		
+		
+		.lang-menu:hover ul {
+			display: block;
+		}
 
-	#header {
-		position: relative;
-		background: #ffffff;
-		border-bottom: solid 1px #ccc;
-		padding: 5em 0 4em 0;
-		text-align: center;
-	}
+
+/* Header */
 
 		/* #header h1 {
 			color: #252122;
@@ -2085,10 +2182,17 @@ input, select, textarea {
 			line-height: 1;
 		} */
 
-		#header img{
+		/* #header img{
 			position: relative;
 			width: 70px;
 			height: 70px;
+		} */		
+	#header {
+			position: relative;
+			background: #ffffff;
+			border-bottom: solid 1px #ccc;
+			padding: 5em 0 4em 0;
+			text-align: center;
 		}
 
 /* Nav */
@@ -2131,7 +2235,8 @@ input, select, textarea {
 					background: #d52349;
 					color: #fff !important;
 					font-weight: 700;
-				}
+				}		
+				
 
 	.dropotron {
 		border-radius: 5px;
