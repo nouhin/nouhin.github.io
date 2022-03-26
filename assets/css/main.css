@@ -2071,7 +2071,7 @@ input, select, textarea {
 		}
 		
 		#upper nav {
-			width: 1400px;
+			width: auto;
 			margin: 0 auto;
 			display: flex;
 			justify-content: space-between;
@@ -2092,7 +2092,7 @@ input, select, textarea {
 			position: relative;
 		}
 		.lang-menu .selected-lang {
-			display: flex;   
+			display: flex;
 			justify-content: space-between;
 			line-height: 1;
 			cursor: pointer;
@@ -2100,8 +2100,23 @@ input, select, textarea {
 		.lang-menu .selected-lang:before {
 			content: '';
 			display: inline-block;
-			width: 32px;
-			height: 32px;
+			width: 28px;
+			height: 26px;
+			background-image: url(https://countryflagsapi.com/png/fr);
+			background-size: contain;
+			background-repeat: no-repeat;
+		}
+		.lang-menu .selected-lang-main {
+			display: flex;
+			justify-content: space-between;
+			line-height: 1;
+			cursor: pointer;
+		}
+		.lang-menu .selected-lang-main:before {
+			content: '';
+			display: inline-block;
+			width: 30px;
+			height: 30px;
 			background-image: url(https://countryflagsapi.com/png/usa);
 			background-size: contain;
 			background-repeat: no-repeat;
@@ -2151,19 +2166,11 @@ input, select, textarea {
 			background-repeat: no-repeat;
 		}
 		
-		.de:before {
-			background-image: url(https://countryflagsapi.com/png/de);
-		}
-		
-		.en:before {
-			background-image: url(https://countryflagsapi.com/png/usa);
-		}
 		.fr:before {
 			background-image: url(https://countryflagsapi.com/png/fr);
 		}
-		
-		.ar:before {
-			background-image: url(https://countryflagsapi.com/png/ar);
+		.en:before {
+			background-image: url(https://countryflagsapi.com/png/usa);
 		}
 		
 		
