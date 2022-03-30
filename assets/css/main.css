@@ -2091,13 +2091,13 @@ input, select, textarea {
 			margin-top: 25px;
 			position: relative;
 		}
-		.lang-menu .selected-lang {
+		.lang-menu .selected-lang-fr {
 			display: flex;
 			justify-content: space-between;
 			line-height: 1;
 			cursor: pointer;
 		}
-		.lang-menu .selected-lang:before {
+		.lang-menu .selected-lang-fr:before {
 			content: '';
 			display: inline-block;
 			width: 28px;
@@ -2106,13 +2106,13 @@ input, select, textarea {
 			background-size: contain;
 			background-repeat: no-repeat;
 		}
-		.lang-menu .selected-lang-main {
+		.lang-menu .selected-lang {
 			display: flex;
 			justify-content: space-between;
 			line-height: 1;
 			cursor: pointer;
 		}
-		.lang-menu .selected-lang-main:before {
+		.lang-menu .selected-lang:before {
 			content: '';
 			display: inline-block;
 			width: 30px;
@@ -2307,7 +2307,7 @@ input, select, textarea {
 	}
 
 		#banner header {
-			background-color: rgba(34, 30, 31, 0.98);
+			/* background-color: rgba(34, 30, 31, 0.98); */
 			display: inline-block;
 			padding: 2em 5em;
 			border-radius: 5px;
